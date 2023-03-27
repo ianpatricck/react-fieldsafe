@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "name": "react-fieldsafe",
+  "version": "1.0.0",
+  "description": "Security and persistence of your app data",
+  "main": "src/index.js",
+  "repository": "git@github.com:ianpatricck/react-fieldsafe.git",
+  "author": "ianpatricck <contatoianpatrick@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
