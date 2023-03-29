@@ -46,7 +46,7 @@ export default class Sanitization {
 
   remove_numeric(text) {
     return text.split('').map(char => {
-      if (Number(char) || char == 0)
+      if (Number(char) || char === 0)
         char = '';
       return char;
     }).join(''); 

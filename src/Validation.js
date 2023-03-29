@@ -80,7 +80,7 @@ export default class Validation {
 
         const special_chars = REGEX.SPECIAL_CHARS;
         let occurrences = pass.split('').map(letter => { 
-          return letter == letter.toLowerCase() && isNaN(letter) && !special_chars.test(letter) ? letter : ''
+          return letter === letter.toLowerCase() && isNaN(letter) && !special_chars.test(letter) ? letter : ''
         }).join('');
 
         if (occurrences.length < lowercase_quantity)
@@ -98,7 +98,7 @@ export default class Validation {
 
         const special_chars = REGEX.SPECIAL_CHARS;
         let occurrences = pass.split('').map(letter => { 
-          return letter == letter.toUpperCase() && isNaN(letter) && !special_chars.test(letter) ? letter : '' 
+          return letter === letter.toUpperCase() && isNaN(letter) && !special_chars.test(letter) ? letter : '' 
         }).join('');
 
         if (occurrences.length < uppercase_quantity)
