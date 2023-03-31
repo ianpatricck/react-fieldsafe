@@ -1,4 +1,4 @@
-import REGEX from './regex.js';
+import REGEX from '../constants/regex.js';
 
 export default class Validation {
 

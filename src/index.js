@@ -1,6 +1,6 @@
-import Validation from './Validation.js'; 
-import Sanitization from './Sanitization.js'; 
-import mask from './mask.js';
+import Validation from './cleaners/Validation.js'; 
+import Sanitization from './cleaners/Sanitization.js'; 
+import mask from './events/mask.js';
 
 export {
   Validation,
